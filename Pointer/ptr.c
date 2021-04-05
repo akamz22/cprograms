@@ -4,4 +4,5 @@ void main(){
     int *b;
     b=&a;
     printf("%d",b);
+    printf("This is Ashwini");
 }
