@@ -14,6 +14,6 @@ int cube(int x)
 {
     int cub;
     cub = (x * x * x);
-    printf("%d", cub);
+    printf("%d", cub); 
     return 0;
 }
