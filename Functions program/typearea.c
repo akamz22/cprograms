@@ -18,7 +18,7 @@ void main()
 void type(float a, float b, float c)
 
 {
-      //  printf("a=%f, b=%f, c= %f\n",a,b,c);
+    //  printf("a=%f, b=%f, c= %f\n",a,b,c);
 
     if ((a * a) + (b * b) == (c * c) || (b * b) + (c * c) == (a * a) || (c * c) + (a * a) == (b * b))
     {
@@ -43,8 +43,8 @@ void area(float a, float b, float c)
     float s, area;
     s = (a + b + c) / 2;
     //printf("a=%f, b=%f, c= %f\n",a,b,c);
-    area = sqrt(s*(s - a) * (s - b) * (s - c));
-    area = s*((s - a) * (s - b) * (s - c));
-    printf("Area of triangle is : %f\n",area);
+    area = sqrt(s * (s - a) * (s - b) * (s - c));
+    area = s * ((s - a) * (s - b) * (s - c));
+    printf("Area of triangle is : %f\n", area);
     //return 0;
 }

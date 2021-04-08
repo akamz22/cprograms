@@ -11,7 +11,6 @@ void main()
         char operator1;
         char arr[100] = "Enter the value of number1 = ";
         printf(arr);
-
         scanf("%d", &number1);
         printf("Enter the value of number2 = ");
         scanf("%d", &number2);
