@@ -7,6 +7,6 @@ enum
 int main()
 {
     status = success;
-    printf("The value of status : %d",status);
+    printf("The value of status : %d", status);
     return 0;
 }
