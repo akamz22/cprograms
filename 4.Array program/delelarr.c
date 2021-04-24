@@ -19,12 +19,7 @@ int main()
     }
     printf("\nEnter element to be deleted...");
     scanf("%d", &num);
-    //printf("Enter position at which element to be deleted : ");
-    //scanf("%d", &pos);
-    //for (i = size; i >= pos; i--)
-    //{
-    //    arr[i] = arr[i +1];
-    //}
+    
     for ( i = 0; i < size; i++)
     {
         if (arr[i]==num)

@@ -1,0 +1,69 @@
+printf() This function is used to print the character, string, float, integer, octal and hexadecimal values onto the output screen
+
+scanf() This function is used to read a character, string, numeric data from keyboard.
+
+getc() It reads character from file
+
+gets() It reads line from keyboard
+
+getchar() It reads character from keyboard
+
+puts() It writes line to o/p screen
+
+putchar() It writes a character to screen
+
+clearerr() This function clears the error indicators
+
+f open() All file handling functions are defined in stdio.h header file
+
+f close() closes an opened file
+
+getw() reads an integer from file
+
+putw() writes an integer to file
+
+f getc() reads a character from file
+
+putc() writes a character to file
+
+f putc() writes a character to file
+
+f gets() reads string from a file, one line at a time
+
+f puts() writes string to a file
+
+f eof() finds end of file
+
+f getchar reads a character from keyboard
+
+f getc() reads a character from file
+
+f printf() writes formatted data to a file
+
+f scanf() reads formatted data from a file
+
+f getchar reads a character from keyboard
+
+f putchar writes a character from keyboard
+
+f seek() moves file pointer position to given location
+
+SEEK_SET moves file pointer position to the beginning of the file
+
+SEEK_CUR moves file pointer position to given location
+
+SEEK_END moves file pointer position to the end of file.
+
+f tell() gives current position of file pointer
+
+rewind() moves file pointer position to the beginning of the file
+
+putc() writes a character to file
+
+sprint() writes formatted output to string
+
+sscanf() Reads formatted input from a string
+
+remove() deletes a file
+
+fflush() flushes a file

@@ -12,9 +12,9 @@ int main()
     }*/
     int a[10] = {8, 9, 17, 5, 14, 12, 16, 27, 15};
     int i = 0, j = 0, temp = 0;
-    for (i = 0; i < 10 - 1; i++)
+    for (i = 10-1; i >= 0 ; i--)
     {
-        for (j = 0; j < 10 - 1 - i; j++)
+        for (j = 0; j < i ; j++)
         {
             if (a[j] > a[j + 1])
             {
@@ -27,7 +27,7 @@ int main()
     printf("Printing Sorted Element List ...\n");
     for (j = 1; j < 10; j++)
     {
-        printf("%d\n", a[j]);
+        printf("%d,", a[j]);
     }
 
     return 0;

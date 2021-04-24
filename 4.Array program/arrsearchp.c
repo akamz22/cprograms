@@ -30,7 +30,7 @@ int main()
     }
     if (flag == 1)
     {
-        printf("Number found at position  %d ",i+1);
+        printf("Number found at position  %dth index. ",i);
     }
     else
     {
