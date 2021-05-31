@@ -140,7 +140,7 @@ int main()
     printf("%d\n", max);
     return 0;
 }
-//output 10
+output 10
 int main()
 {
     int a = 5, b = 6;
@@ -152,5 +152,11 @@ int main()
 //output 6     1      6 6
 int main()
 {
-    
+    int a = 2, b = 2, x, y;
+    x = 4 * (++a * 2 + 3);
+    y = 4 * (b++ * 2 + 3);
+    printf("a=%d, b=%d, a=%d, y=%d", a, b, x, y);
+    return 0;
 }
+//output  a=3, b=3, x=36, y=28
+
